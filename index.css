@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px 20px;
+    background-color: white;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.logo{
+    font-size:42px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+}
+.logo:hover{
+    color:plum;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    gap:32px;
+}
+nav ul li{
+    
+    display:inline;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "DotGothic16", sans-serif;
+    color:black;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: pink;
+    color:plum;
+}
+.heading{
+    font-size: 120px;
+    text-align: center;
+    font-family: DotGothic16;
+    font-weight: 400;
+}
+.heading:hover{
+    color: purple;
+    transition: all;
+    transition-duration: 2s;
+}
+.image .heading .image{
+    width:100%;
+    /* height: 672px; */
+    max-width:1200px;
+    
+}
+.main{
+    width:1,344px;
+    height:1,152px;
+    padding-top:96px;
+    padding-bottom:96px;
+    gap:48px;
+    border-bottom: 1px;
+    margin:5px;
+    margin-left:5px;
+    
+    
+}
+.project-container{
+    width: 1,344px;
+    height:429px;
+    padding-top:48px;
+    padding-bottom:48px;
+    gap:48px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.project{
+    width:416px;
+    height: 333px;
+    gap:8px;
+}
+.project h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.project h2:hover{
+    color: goldenrod;
+}
+.project p{
+    font-size: 17px;
+}
+.project img{
+    width:416px;
+    height:277px;
+    gap:8px;
+}
+.Container{
+    text-align: center ;
+    width:100%;
+    height:100%;
+    padding:200px;
+    margin:20px;
+    border-bottom: 1px solid black;
+}
+.Container h2{
+    font-size:64px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+}
+.Container p{
+    font-style: "archivo", sans-serif;
+    font-size:24px;
+    font-weight: 400;
+}
+.Container button{
+    padding:12px 24px;
+    background-color: blue;
+    color:white;
+    height: 48px;
+    width: 198px;
+}
+.Container button:hover{
+    background-color: purple;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:150px;
+    border-bottom: 1px solid black;
+}
+
+.about-section h2 {
+    font-size: 48px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    
+}
+
+.about-section p {
+    font-size: 24px;
+    max-width: 600px;
+    line-height: 32px;
+    font-family:"archivo", sans-serif; 
+    
+}
+
+
+.para1{
+    
+    display: flex;
+    text-align:left;
+    padding:100px;
+}
+.para{font-size: 48px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    width:700px;
+    height: 200px;
+    line-height: 52px;
+}
+.container1{
+    padding:100px;
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin:100px;
+}
+.text-section{
+    padding-top:300px;
+}
+.text-section h1{
+    font-size: 48px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+}
+.text-section p{
+    font-size: 24px;
+    font-family:"archivo", sans-serif;
+    line-height: 32px;
+    font-weight: 400;
+}
+.container2 {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    
+}
+
+.text-content {
+    max-width: 50%;
+    text-align: right;
+    border-bottom: black;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.feedback {
+    padding: 48px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .feedback h1 {
+    font-family:"DotGothic16", sans-serif; ;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 48px;
+    color: black;
+  }
+  .feedback .outerDiv {
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+  }
+  .outerDiv .card {
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    height: max-content;
+  }
+  .card p {
+    width: 180px;
+    padding-left: 36px;
+    border-left: 1px solid #212121;
+    margin-left: 24px;
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+  }
+  
+
+  
+  .card .personDetails {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .personAbout h2 {
+    font-family: Archivo;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+  }
+  .personAbout h4 {
+    font-family: Archivo;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: black;
+  }
+  .footer {
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    
+}
+.back{
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 32px;
+    }
+    nav ul {
+        gap: 16px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 80px;
+    }
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 100%;
+        max-width: 90%;
+    }
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .heading {
+        font-size: 48px;
+    }
+    .about-section h2 {
+        font-size: 32px;
+    }
+    .about-section p {
+        font-size: 18px;
+    }
+    .Container h2 {
+        font-size: 32px;
+    }
+    .Container p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .heading {
+        font-size: 32px;
+    }
+    .Container h2, .text-section h1 {
+        font-size: 24px;
+    }
+    .Container p, .about-section p {
+        font-size: 14px;
+    }
+}
+.container2{
+    border-bottom: 1px solid black;
+}
+.footer {
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+.back{
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
+.Steampunk{
+    padding:100px;
+}
+.back{
+    padding:100px;
+}
+.feedback{
+    border-bottom: 1px solid black;
+}
+.back:hover{
+    color: blue;
+}
+  
+  
+  
+  
+  
+  
+  
+
+
